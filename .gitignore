@@ -1,0 +1,4 @@
+devices.json
+*.csv
+.idea/
+__pycache__/
