@@ -1,4 +1,4 @@
 devices.json
-*.csv
+*.csv*
 .idea/
 __pycache__/

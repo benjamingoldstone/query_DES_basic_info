@@ -2,13 +2,15 @@
   "leaf1": {
     "switch_ip": "192.168.1.1",
     "username": "admin",
-    "password": "admin123",
-    "description": "leaf1"
+    "password": "YourPaSsWoRd",
+    "description": "leaf1",
+    "firmware_ver": "4.1.1"
   },
   "leaf2": {
     "switch_ip": "192.168.1.2",
     "username": "admin",
     "password": "admin123",
-    "description": "leaf2"
+    "description": "leaf2",
+    "firmware_ver": "3.5.1"
   }
 }

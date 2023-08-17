@@ -50,7 +50,8 @@ def create_switch_objects(config):
         username = parameters.get("username")
         password = parameters.get("password")
         description = parameters.get("description")
-        switch = DellEnterpriseSONiCSwitch(switch_ip, username, password, description)
+        firmware_version = parameters.get("firmware_ver")
+        switch = DellEnterpriseSONiCSwitch(switch_ip, username, password, description, firmware_version)
         list_of_switch_objects.append(switch)
     return list_of_switch_objects
 
